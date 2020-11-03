@@ -10,13 +10,14 @@ Queremos ver a legibilidade e seu design de código, as boas práticas de desenv
 
 ## O Desafio
 
-Você deverá desenvolver uma tela de dashboard para nossos usuários. Devem ser apresentados dois gráficos:
+Sabendo que nosso sistema é utilizado para detectar possíveis fraudes em documentos, seu desafio será desenvolver uma tela de dashboard para nossos usuários terem uma melhor visualização de volumetria de uso e de fraudes detectadas pela API, e extrair informações dessas métricas.
+Devem ser apresentados dois gráficos:
 
-1. quantidade total de requisições recebidas separadas em fraudes e verdadeiras;
+1. Quantidade total de requisições recebidas, separadas em fraudes e verdadeiras;
 
-1. top 5 estados com mais fraudes, separados pela porcentagem que representa aquele estado no total de fraudes existentes. Ex: De 150 fraudes, 50% são de SP, 25% de PR, 5% de RJ...
+2. Top 5 estados com maior número de fraudes, incluindo sua porcentagem em relação ao total de fraudes existentes. Ex: De 150 fraudes, 50% são de SP, 25% de PR, 5% de RJ...
 
-Os dados dos gráficos devem ser fornecidos pelo back-end. Exigimos apenas que exita uma rota, os dados utilizados para plotar os gráficos podem ser **Mocks**.
+Os dados dos gráficos devem ser fornecidos pelo back-end. Exigimos apenas que exista uma rota, os dados utilizados para plotar os gráficos podem ser **Mocks**.
 
 ![](./images/Dashboard.jpg)
 Crie um projeto para apresentar a tela e componentes com o estilo que desejar.
